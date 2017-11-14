@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+			<meta name content="">
+
+		<title>Bike Safe</title>
+
+		<!-- external CS  link -->
+		<!-- <link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css"> -->
+
+
+	</head>
+	<body>
+		<h1>Bike Safe</h1>
+		<h2>Be aware of what's happening in your neighborhood.</h2>
+
+		<label for="incident_name">Incident : </label><input id="incident_name" name="incident_name" type="text" list="country" />
+		<datalist id="country">
+			 <option value="crash">
+			 <option value="hazaard">
+			 <option value="theft">
+			 <option value="unconfirmed">
+			 <option value="infrastructure issue">
+			 <option value="chop shop">
+		</datalist>
+
+		<input id="city"  type="text" name="" value="" placeholder="enter city name">
+		<button id="search" type="button" name="button">SEARCH</button>
+
+		<div class="results">
+			<p id="description"></p>
+
+		</div>
+
+		<h5>Powered by <a href="https://www.bikewise.org/">BikeWise</a></h5>
+
+
+
+
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+	</body>
+</html>
